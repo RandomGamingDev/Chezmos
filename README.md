@@ -15,7 +15,11 @@ return Math.sin(x);
 
 if (x == 1)
   return 32;
-return self(x - 1) + 8; // by the way when dealing with recursive functions make sure to not recurse too much for example if used with a domain that includes numbers that aren't whole numbers and/or numbers that are below 1 this will infinitely recurse which will bring up a recursion error so for example with this equation you might want to use for example, the domain 1-10 with step 1
+return self(x - 1) + 8; 
+// by the way when dealing with recursive functions make sure to not recurse too much
+// for example if used with a domain that includes numbers that aren't whole numbers 
+// and/or numbers that are below 1 this will infinitely recurse 
+// which will bring up a recursion error so for example with this equation you might want to use for example, the domain 1-10 with step 1
 ```
 
 Credit to Knectoparapolosis for the name. You can find his github here: https://github.com/Knectoparapolosis.
